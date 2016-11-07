@@ -12,6 +12,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @ComponentScan(basePackages = {"lab.aikibo"})
 //@Import({HibernateConfiguration.class})
-@Import({SecurityConfig.class})
+@Import({SecurityConfig.class,HibernateConfig.class})
 public class AppConfig {
 }
