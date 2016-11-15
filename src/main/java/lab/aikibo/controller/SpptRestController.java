@@ -26,6 +26,8 @@ public class SpptRestController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public Status login()
+    public Status login() {
+
+    }
 
 }
